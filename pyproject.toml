@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "omninode-manifold"
+version = "1.0.0"
+description = "Universal parameterized recursive OmniNode shell encapsulating self-describing CARD operators, algebraic composition, grid/1 cell ledgers, content-addressed lockfiles, self-synthesizing gap loops, and 9-runtime compilation."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+  {name = "AI Done Right Corp"}
+]
+dependencies = [
+  "numpy>=1.24"
+]
+
+[project.scripts]
+omninode-manifold = "omninode_manifold.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["omninode_manifold*", "components*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"

@@ -1,0 +1,155 @@
+{
+  "autonomous_gap_loop": {
+    "hidden_pass_rate": 1.0,
+    "initial_declined_attempts": 2,
+    "rerun_resolved_capability": "spectral_polar_denoiser",
+    "shown_pass_rate": 1.0,
+    "synthesized_count": 1
+  },
+  "conformance_gates": {
+    "ast_magic_literal_violations": 0,
+    "binary_residue_count": 0,
+    "domain_naming_violations": 0,
+    "static_card_brick_count": 22
+  },
+  "embedding_bridge_and_sae": {
+    "bridge_metrics": {
+      "bridge_rank": 32,
+      "held_out_cosine_alignment": 0.748527,
+      "held_out_top1_retrieval": 0.9375,
+      "source_dim": 384,
+      "target_dim": 768
+    },
+    "large_dim": 768,
+    "live_local_runner_used": true,
+    "sae_family_sweep": {
+      "BatchTopK": {
+        "activation_family": "BatchTopK",
+        "concept_selectivity_f1": 0.238095,
+        "mean_l0": 8.0,
+        "n_atoms": 1152,
+        "r2_score": 1.0,
+        "whitening_metric": "ZCA"
+      },
+      "GatedSAE": {
+        "activation_family": "GatedSAE",
+        "concept_selectivity_f1": 0.284503,
+        "mean_l0": 8.0,
+        "n_atoms": 1152,
+        "r2_score": 1.0,
+        "whitening_metric": "ZCA"
+      },
+      "JumpReLU": {
+        "activation_family": "JumpReLU",
+        "concept_selectivity_f1": 0.557141,
+        "mean_l0": 263.78125,
+        "n_atoms": 1152,
+        "r2_score": 1.0,
+        "whitening_metric": "ZCA"
+      },
+      "MatryoshkaNested": {
+        "activation_family": "MatryoshkaNested",
+        "concept_selectivity_f1": 0.307895,
+        "mean_l0": 8.703125,
+        "n_atoms": 1152,
+        "r2_score": 1.0,
+        "whitening_metric": "ZCA"
+      },
+      "TopK": {
+        "activation_family": "TopK",
+        "concept_selectivity_f1": 0.281349,
+        "mean_l0": 8.0,
+        "n_atoms": 1152,
+        "r2_score": 1.0,
+        "whitening_metric": "ZCA"
+      }
+    },
+    "small_dim": 384
+  },
+  "grid_ledger_and_auto_expansion": {
+    "expanded": true,
+    "grid1_records_logged": 10,
+    "new_generation": 2,
+    "previous_generation": 1,
+    "promoted_cell_digest_prefix8": "f2453404",
+    "saturated_axes_expanded_count": 14
+  },
+  "lockfile_and_cas_integrity": {
+    "empty_folder_output_max_diff": 0.0,
+    "empty_folder_rebuild_searches": 0,
+    "initial_discovery_searches": 2,
+    "mismatch_events_logged": 1,
+    "upstream_tamper_failure_kind": "contract",
+    "upstream_tamper_rejected": true
+  },
+  "loopback_http_and_mcp": {
+    "health_status": 200,
+    "hello_status": 200,
+    "job_ok": true,
+    "job_status": 200,
+    "mcp_listed_tool_count": 7,
+    "mcp_protocol_version": "2025-06-18",
+    "mcp_tool_call_is_error": false
+  },
+  "shape_algebra_and_quorum": {
+    "composite_verification_passed": true,
+    "leace_cov_after": 0.0,
+    "leace_cov_before": 0.045426,
+    "parallel_sheaf_disagreement": 0.002742,
+    "self_check_same_actor_rejected": true,
+    "steerer_anchor_drift": 0.0,
+    "steerer_off_target_intrusion": 0.0
+  },
+  "specialist_operators_and_9runtime": {
+    "elk_sheaf_conformal": {
+      "check_passed": true,
+      "conformal_empirical_coverage": 0.875,
+      "elk_truth_accuracy": 0.84375,
+      "sheaf_coboundary_energy": 0.0,
+      "sheaf_energy_ceiling": 0.3
+    },
+    "hyperlora_liquid": {
+      "anchor_nullspace_drift": 0.0,
+      "kronecker_factors": [
+        4,
+        4
+      ],
+      "kronecker_rank": 4
+    },
+    "portable_9runtime": {
+      "c99_max_abs_diff": 0.0,
+      "parity_passed": true,
+      "python_max_abs_diff": 0.0,
+      "rust_nostd_max_abs_diff": 0.0,
+      "safetensors_max_abs_diff": 0.0,
+      "sql_max_abs_diff": 0.0,
+      "target_count": 9,
+      "targets_emitted": [
+        "wasm",
+        "rust",
+        "c99",
+        "wgsl",
+        "glsl",
+        "sql",
+        "js",
+        "python",
+        "safetensors"
+      ],
+      "wasm_max_abs_diff": 0.0
+    },
+    "sinkhorn_marginal_error": 0.0,
+    "trajectory_loop_breaker": {
+      "halt_step": 4,
+      "loop_detected": true,
+      "max_koopman_modulus": 0.96225,
+      "mean_frenet_curvature": 1.003874,
+      "min_window_participation_ratio": 1.927252,
+      "token_savings_ratio": 0.75,
+      "total_steps": 16
+    },
+    "woodbury_first_call_cache_hit": false,
+    "woodbury_r2": 0.455521,
+    "woodbury_second_call_cache_hit": true
+  },
+  "suite": "omninode_universal_shell_v1"
+}
